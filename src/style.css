@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.archivo {
+  font-family: "Archivo", sans-serif;
+}
+
+.space {
+  font-family: "Space Grotesk", sans-serif;
+}
