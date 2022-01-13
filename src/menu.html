@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autobahn Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.5.1/tailwind.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="flex justify-center">
+        <div class="flex flex-col lg:w-7/12 w-screen max-w-7xl">
+            <div class="border-b-8 border-yellow-400">
+                <div class="pl-5 flex flex-row items-center justify-between py-8">
+                    <div class="flex items-center">
+                        <img src="../img/coffee.svg" alt="coffee" class="h-12 w-12">
+                        <h1 class="text-2xl archivo pl-4">
+                            autobahn café  
+                        </h1>
+                    </div>
+                    <h2 class="text-xs space hidden lg:inline">
+                        571 5th Street Oakland, CA 94607
+                    </h2>
+                </div>
+            </div>
+            <nav class="">
+                <div class="px-8 max-width-7xl mx-auto">
+                    <div class="hidden lg:flex justify-evenly">
+                        <div class="space font-bold decoration-8 text-sm space-x-24 py-8">
+                            <a href="./index.html" class="">Home</a>
+                            <a href="./location.html" class="">Location</a>
+                            <a href="./menu.html" class="border-b-2 border-yellow-400">Menu</a>
+                            <a href="./catering.html" class="">Catering</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-menu lg:hidden space mb-6">
+                    <a href="./index.html" class="block py-2 px-4 text-sm">Home</a>
+                    <a href="./location.html" class="block py-2 px-4 text-sm">Location</a>
+                    <a href="./menu.html" class="block py-2 px-4 text-sm bg-gray-100">Menu</a>
+                    <a href="./catering.html" class="block py-2 px-4 text-sm">Catering</a>
+                </div>
+            </nav>
+            <div class="h-max py-5 px-5 space">
+                <h2 class="text-xl font-semibold"> 
+                    Menu: 
+                </h2>
+                <div class="my-5 font-regular">
+                    <p class="my-2">
+                        <span class="text-lg text-orange-800">updated prices as of 3/1/2019</span>
+                        <div class="flex flex-col border-b-2 border-yellow-300 pt-2 pb-2">
+                            <p class="text-md font-bold">
+                                homemade spicy sausage
+                            </p>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm max-w-md">
+                                    mayonaise, mustard, jalapeñojack cheese, tomatoes, organic greens 
+                                </p>
+                                <p class="text-lg underline">$9.15</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-yellow-300 pb-2">
+                            <p class="text-md font-bold">
+                                roasted turkey breast
+                            </p> 
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm max-w-md">
+                                    chipotle mayo or basil oil, mayonnaise, jack cheese, tomatoes, organic mixed greens 
+                                </p>
+                                <p class="text-lg underline">$9.15</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-yellow-300 pb-2">
+                            <p class="text-md font-bold">
+                                black forest ham
+                            </p>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    swiss cheese, organic mixed greens, tomatoes, mustard, mayonaise and pickles 
+                                </p>
+                                <p class="text-lg underline">$9.15</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-yellow-300 pb-2">
+                            <p class="text-md font-bold">
+                                toscana salami
+                            </p>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm max-w-md">
+                                    mayonnaise, mustard, Swiss cheese, tomatoes, pepperoncini and mixed greens
+                                </p>
+                                <p class="text-lg underline">$9.15</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-yellow-300 pb-2">
+                            <p class="text-md font-bold">
+                                turkey pastrami
+                            </p>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm max-w-md">
+                                    crispy bacon, avocado, tomatoes, and lettuce with chipotle mayo
+                                </p>
+                                <p class="text-lg underline">$10.00</p>
+                            </div>
+                        </div>
+                        <br>
+                        <span class="text-lg font-black text-teal-600">Vegetarian</span>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-teal-300 pt-2 pb-2">
+                            <p class="text-md font-bold">
+                                portabella mushrooms
+                            </p>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    mayonaise, basil olive oil, jack cheese, cucumber, tomatoes, mixed greens 
+                                </p>
+                                <p class="text-lg underline">$7.35</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-teal-300 pb-2">
+                            <p class="text-md font-bold">
+                                caprese sandwich
+                            </p> 
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm max-w-md">
+                                    house made basil oil, fresh mozzarella cheese, tomatoes and fresh basil leaves
+                                </p>
+                                <p class="text-lg underline">$8.24</p>
+                            </div>
+                        </div>
+                        <br> 
+                        <span class="text-lg font-black text-green-600">Salads</span>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-green-300 pt-2 pb-2">
+                            <p class="text-md font-bold">
+                                house salad
+                            </p>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm max-w-md">
+                                    organic mixed greens, cucumbers, shaved cheese, organic hard boiled egg, and house dressing
+                                </p>
+                                <p class="text-lg underline">$8.00</p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm max-w-md">
+                                    - half sandwich and house salad
+                                </p>
+                                <p class="text-md underline">12.00</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-green-300 pb-2">
+                            <p class="text-md font-bold">
+                                avocado salad (choice of chicken or bacon)
+                            </p> 
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    mixed greens, tomatoes, parmesan cheese and house dressing
+                                </p>
+                                <p class="text-lg underline">$10.00</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-green-300 pb-2">
+                            <p class="text-md font-bold">
+                                greek salad
+                            </p> 
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    organic mixed greens, mixed with romaine hearts lettuce, organic cherry tomato, cucumber, red onions, bell peppers, green olives, feta cheese and house dressing
+                                </p>
+                                <p class="text-lg underline">$10.00</p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - add avocado
+                                </p>
+                                <p class="text-md underline">1.00</p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - add meat
+                                </p>
+                                <p class="text-md underline">2.00</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-green-300 pb-2">
+                            <p class="text-md font-bold">
+                                quinoa salad
+                            </p> 
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    with cucumbers, bell peppers, olive and basil oil
+                                </p>
+                                <p class="text-lg underline">$7.00</p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - add cheese
+                                </p>
+                                <p class="text-md underline">1.00</p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - add lettuce
+                                </p>
+                                <p class="text-md underline">1.00</p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - add meat
+                                </p>
+                                <p class="text-md underline">2.00</p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - add steamed beats
+                                </p>
+                                <p class="text-md underline">1.00</p>
+                            </div>
+                        </div>        
+                        <br>
+                        <span class="text-lg font-black text-blue-600">Specials</span>
+                        <br>
+                        <span class="text-md font-bold">Breakfast <span class="underline">6:30 am</span> until <span class="underline">11:00 am</span></span>
+                        <br>
+                        <span class="text-sm pt-2">For Daily Specials please call: <span class="underline pb-2"><a href="tel:510-836-1234">510-836-1234</a></span></span>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-blue-300 pt-2 pb-2">
+                            <p class="text-md font-bold">
+                                egg sandwich
+                            </p>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    organic egg sandwich with cheese and green onions and one of the following:
+                                </p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-md">
+                                    half size (1 egg)
+                                </p>
+                                <p class="text-lg underline">$5.25</p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-md">
+                                    full size (2 eggs)
+                                </p>
+                                <p class="text-lg underline">$9.25</p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - black forest ham
+                                </p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - bacon
+                                </p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - portabella mushroom
+                                </p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - turkey breast
+                                </p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - homemade spicy sausage
+                                </p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm">
+                                    - vegetarian (spinach and peppers)
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-blue-300 pb-2">
+                            <p class="text-md font-bold">
+                                egg burrito
+                            </p> 
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm max-w-md">
+                                    choice of meat or veggies
+                                </p>
+                                <p class="text-lg underline">$9.25</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-blue-300 pb-2">
+                            <p class="text-md font-bold">
+                                hot oatmeal
+                            </p> 
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm max-w-md">
+                                    with fruit, nuts, and currants
+                                </p>
+                                <p class="text-lg underline">$4.50</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="flex flex-col border-b-2 border-blue-300 pb-2">
+                            <p class="text-md font-bold">
+                                oatmeal w/ yogurt
+                            </p> 
+                            <div class="flex flex-row items-center justify-between">
+                                <p class="text-sm max-w-md">
+                                    with yogurt, fruits, and nuts
+                                </p>
+                                <p class="text-lg underline">$4.00</p>
+                            </div>
+                        </div>
+                        <br>
+                        
+                        <br>
+                        <div class="pb-2">
+                            <p class="text-lg font-black text-indigo-600">
+                               cold drinks 
+                            </p>
+                            <p>
+                                - coke, diet coke, bottled water, limonata 
+                            </p>
+                            <p>
+                                - iced tea, iced coffee
+                            </p>
+                            <p>
+                                - freshly squeezed orange juice 12oz
+                            </p>
+                        </div>
+                        <br>
+                        <span class="text-lg font-black border-l-2 border-orange-400 pl-2">all pastries fresh baked daily</span> 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
